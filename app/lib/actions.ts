@@ -72,7 +72,6 @@ export async function deleteInvoice(id: string) {
   //use to check error.tsx file
   //   throw new Error("Failed to Delete Invoice");
 
-  // Unreachable code block
   await sql`DELETE FROM invoices WHERE id = ${id}`;
   revalidatePath("/dashboard/invoices");
 }
