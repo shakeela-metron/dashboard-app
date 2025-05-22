@@ -1,6 +1,6 @@
 import CardWrapper, { Card } from "@/app/ui/dashboard/cards";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import {
   CardsSkeleton,
   LatestInvoicesSkeleton,
